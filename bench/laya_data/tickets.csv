@@ -1,0 +1,31 @@
+id,text,label,kind
+1,My package has not arrived after two weeks,shipping,normal
+2,The tracking number says delivered but nothing is at my door,shipping,normal
+3,Can you ship to Belgium?,shipping,normal
+4,The box arrived crushed and the item inside is broken,shipping,normal
+5,My order is stuck in customs,shipping,normal
+6,Delivery driver left my parcel at the wrong address,shipping,normal
+7,When will my order be sent?,shipping,normal
+8,I need to change my delivery address,shipping,normal
+9,I was charged twice for the same order,billing,normal
+10,Please send me an invoice with my company VAT number,billing,normal
+11,I want a refund for my cancelled subscription,billing,normal
+12,My credit card payment keeps failing,billing,normal
+13,Why did my monthly price go up?,billing,normal
+14,I see a charge I don't recognise on my bank statement,billing,normal
+15,Can I pay with iDEAL?,billing,normal
+16,The discount code was not applied to my total,billing,normal
+17,How do I reset my password?,support,normal
+18,Does this blender work with 110V?,support,normal
+19,How do I connect the app to my smartwatch?,support,normal
+20,What is the difference between the Pro and Basic model?,support,normal
+21,The app crashes when I open settings,support,normal
+22,Can I use the product outdoors in the rain?,support,normal
+23,Where can I find the user manual?,support,normal
+24,How do I change the language of the interface?,support,normal
+25,Still waiting... it's been 3 weeks 😡,shipping,implicit
+26,Courier never showed up,shipping,implicit
+27,Bank says the transaction was declined,billing,implicit
+28,Mijn pakket is nog steeds niet bezorgd,shipping,dutch
+29,Er is twee keer geld afgeschreven voor één bestelling,billing,dutch
+30,Hoe verander ik mijn wachtwoord?,support,dutch
