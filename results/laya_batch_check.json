@@ -1,0 +1,30 @@
+{
+  "rows": 56,
+  "loop_seconds": 13.77,
+  "loop_ms_per_row": 245.9,
+  "predict_batch": {
+    "8": {
+      "seconds": 7.59,
+      "max_abs_diff_vs_loop": 0.0,
+      "same_decision_pct": 100.0
+    },
+    "16": {
+      "seconds": 7.0,
+      "max_abs_diff_vs_loop": 0.0,
+      "same_decision_pct": 100.0
+    },
+    "32": {
+      "seconds": 6.98,
+      "max_abs_diff_vs_loop": 0.0,
+      "same_decision_pct": 100.0
+    }
+  },
+  "best_speedup_x": 1.97,
+  "choice_confidence_fields": {
+    "rows": 30,
+    "confidence_over_0.8": 0,
+    "answer_confidence_over_0.8": 10,
+    "mean_confidence": 0.334,
+    "mean_answer_confidence": 0.714
+  }
+}

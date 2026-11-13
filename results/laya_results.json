@@ -1,0 +1,293 @@
+{
+  "worker": "python vgi-laya/laya_worker.py (local clone, CPU torch)",
+  "cold_start": [
+    {
+      "load_and_attach_ms": 1888.8,
+      "first_call_ms": 2831.4,
+      "second_call_ms": 244.4
+    },
+    {
+      "load_and_attach_ms": 1436.4,
+      "first_call_ms": 2972.1,
+      "second_call_ms": 220.9
+    },
+    {
+      "load_and_attach_ms": 1457.6,
+      "first_call_ms": 3261.6,
+      "second_call_ms": 212.9
+    }
+  ],
+  "is_interesting": {
+    "instructions": "About databases, SQL or data engineering",
+    "threshold": 0.5,
+    "laya_all": {
+      "n": 56,
+      "accuracy": 0.946,
+      "precision": 0.931,
+      "recall": 0.964,
+      "f1": 0.947,
+      "tp": 27,
+      "fp": 2,
+      "fn": 1,
+      "tn": 26
+    },
+    "keyword_all": {
+      "n": 56,
+      "accuracy": 0.75,
+      "precision": 0.818,
+      "recall": 0.643,
+      "f1": 0.72,
+      "tp": 18,
+      "fp": 4,
+      "fn": 10,
+      "tn": 24
+    },
+    "by_kind": {
+      "dutch": {
+        "laya_correct": 6,
+        "keyword_correct": 6,
+        "n": 6
+      },
+      "keyword_trap": {
+        "laya_correct": 3,
+        "keyword_correct": 1,
+        "n": 5
+      },
+      "no_keyword": {
+        "laya_correct": 5,
+        "keyword_correct": 0,
+        "n": 5
+      },
+      "normal": {
+        "laya_correct": 39,
+        "keyword_correct": 35,
+        "n": 40
+      }
+    },
+    "best_threshold": {
+      "threshold": 0.35,
+      "n": 56,
+      "accuracy": 0.964,
+      "precision": 0.933,
+      "recall": 1.0,
+      "f1": 0.966,
+      "tp": 28,
+      "fp": 2,
+      "fn": 0,
+      "tn": 26
+    },
+    "mean_p_label1": 0.722,
+    "mean_p_label0": 0.1,
+    "laya_total_ms": 15952.0,
+    "laya_ms_per_row": 284.9,
+    "keyword_total_ms": 1.39
+  },
+  "consistency_headlines": {
+    "repeat_max_abs_diff": 0.0,
+    "paraphrase_same_decision_pct": 85.7,
+    "paraphrase_metrics": {
+      "n": 56,
+      "accuracy": 0.875,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.857,
+      "tp": 21,
+      "fp": 0,
+      "fn": 7,
+      "tn": 28
+    },
+    "negation_mean_abs(p+q-1)": 0.651,
+    "negation_both_above_0.5": 24,
+    "negation_metrics_if_flipped": {
+      "n": 56,
+      "accuracy": 0.107,
+      "precision": 0.156,
+      "recall": 0.179,
+      "f1": 0.167,
+      "tp": 5,
+      "fp": 27,
+      "fn": 23,
+      "tn": 1
+    }
+  },
+  "choice": {
+    "laya_accuracy": 1.0,
+    "keyword_accuracy": 0.9,
+    "by_kind": {
+      "dutch": {
+        "laya_correct": 3,
+        "keyword_correct": 1,
+        "n": 3
+      },
+      "implicit": {
+        "laya_correct": 3,
+        "keyword_correct": 2,
+        "n": 3
+      },
+      "normal": {
+        "laya_correct": 24,
+        "keyword_correct": 24,
+        "n": 24
+      }
+    },
+    "confusion_label_to_predicted": {
+      "shipping": {
+        "shipping": 11
+      },
+      "billing": {
+        "billing": 10
+      },
+      "support": {
+        "support": 9
+      }
+    },
+    "shuffled_options_same_answer_pct": 100.0,
+    "renamed_options_same_answer_pct": 93.3,
+    "mean_confidence_correct": 0.334,
+    "mean_confidence_wrong": NaN,
+    "ms_per_row": 299.0
+  },
+  "score": {
+    "spearman": 0.907,
+    "mean_abs_error_vs_label_div_3": 0.937,
+    "mean_score_per_label": {
+      "0": 0.812,
+      "1": 1.283,
+      "2": 1.703,
+      "3": 1.952
+    }
+  },
+  "edge_cases": {
+    "null_input": {
+      "ok": true,
+      "ms": 2.0,
+      "result": [
+        [
+          null
+        ]
+      ]
+    },
+    "empty_string": {
+      "ok": true,
+      "ms": 224.2,
+      "result": [
+        [
+          0.125
+        ]
+      ]
+    },
+    "whitespace_only": {
+      "ok": true,
+      "ms": 214.5,
+      "result": [
+        [
+          0.1189
+        ]
+      ]
+    },
+    "emoji_only": {
+      "ok": true,
+      "ms": 217.2,
+      "result": [
+        [
+          0.0887
+        ]
+      ]
+    },
+    "very_long_20k_chars": {
+      "ok": true,
+      "ms": 1504.1,
+      "result": [
+        [
+          0.8155
+        ]
+      ]
+    },
+    "empty_instructions": {
+      "ok": false,
+      "ms": 105.5,
+      "error": "InvalidInputException: Invalid Input Error: VGI Worker Exception: ValueError: is_interesting() needs instructions as its second argument, e.g. is_interesting(title, 'About databases and distributed systems')"
+    },
+    "null_instructions": {
+      "ok": true,
+      "ms": 0.8,
+      "result": [
+        [
+          null
+        ]
+      ]
+    },
+    "column_as_instructions": {
+      "ok": false,
+      "ms": 0.6,
+      "error": "BinderException: Binder Error: Parameter 'instructions' of function 'is_interesting' must be a constant value"
+    },
+    "noul_missing_instructions": {
+      "ok": false,
+      "ms": 106.1,
+      "error": "InvalidInputException: Invalid Input Error: VGI Worker Exception: ValueError: noul() requires 'instructions', e.g. instructions => 'Is this about databases?'"
+    },
+    "choice_missing_criteria": {
+      "ok": false,
+      "ms": 1492.7,
+      "error": "InvalidInputException: Invalid Input Error: VGI Worker Exception: ValueError: choice() requires 'criteria', e.g. criteria => MAP {'option1': 'Description 1', 'option2': 'Description 2'}"
+    },
+    "choice_one_option": {
+      "ok": true,
+      "ms": 3975.7,
+      "result": [
+        [
+          "shipping",
+          1.0,
+          {
+            "shipping": 1.0
+          }
+        ]
+      ]
+    },
+    "choice_empty_map": {
+      "ok": false,
+      "ms": 106.5,
+      "error": "InvalidInputException: Invalid Input Error: VGI Worker Exception: ValueError: choice() criteria must have at least two options"
+    },
+    "score_one_level": {
+      "ok": false,
+      "ms": 1354.3,
+      "error": "InvalidInputException: Invalid Input Error: VGI Worker Exception: ValueError: score() criteria must have at least 2 levels"
+    },
+    "score_empty_list": {
+      "ok": false,
+      "ms": 1343.0,
+      "error": "InvalidInputException: Invalid Input Error: VGI Worker Exception: ValueError: score() criteria must have at least 2 levels"
+    },
+    "choice_null_text": {
+      "ok": true,
+      "ms": 1140.8,
+      "result": [
+        [
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "warm_speed": [
+    {
+      "rows": 1,
+      "median_ms": 259.5,
+      "ms_per_row": 259.5
+    },
+    {
+      "rows": 10,
+      "median_ms": 2472.0,
+      "ms_per_row": 247.2
+    },
+    {
+      "rows": 50,
+      "median_ms": 12102.5,
+      "ms_per_row": 242.0
+    }
+  ],
+  "vgi_laya_commit": "46e97ee"
+}
