@@ -1,3 +1,12 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.4, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Salim\Desktop\VGI-tester\VGI-tester\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Salim\Desktop\VGI-tester\vgi-tester
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.16.0, platformdirs-4.14.5
+collecting ... collected 12 items
+
 tests/test_correctness.py::test_passthrough PASSED                       [  8%]
 tests/test_correctness.py::test_upper PASSED                             [ 16%]
 tests/test_correctness.py::test_sha256 PASSED                            [ 25%]
@@ -10,3 +19,5 @@ tests/test_correctness.py::test_python_error_becomes_sql_error PASSED    [ 75%]
 tests/test_correctness.py::test_worker_crash_does_not_kill_duckdb PASSED [ 83%]
 tests/test_correctness.py::test_overflow_errors_like_native PASSED       [ 91%]
 tests/test_correctness.py::test_wrong_type_fails_at_bind PASSED          [100%]
+
+============================= 12 passed in 4.08s ==============================
