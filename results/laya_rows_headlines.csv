@@ -1,0 +1,57 @@
+id,text,label,kind,laya_p,keyword_match
+1,DuckDB 2.0 released with a new query optimizer,1,normal,0.8083,1
+2,PostgreSQL 19 adds faster parallel index builds,1,normal,0.9387,1
+3,How we cut our Snowflake bill in half by rewriting slow SQL queries,1,normal,0.8054,1
+4,A beginner's guide to database indexes,1,normal,0.7217,1
+5,SQLite now supports JSONB columns,1,normal,0.8191,1
+6,Apache Iceberg vs Delta Lake: choosing a table format for your data lake,1,normal,0.5154,1
+7,Why our team moved from MongoDB back to Postgres,1,normal,0.8873,1
+8,Understanding ACID transactions in relational databases,1,normal,0.8088,1
+9,ClickHouse benchmarks on 10 billion rows of log data,1,normal,0.9073,0
+10,Building a real-time data pipeline with Kafka and DuckDB,1,normal,0.7731,1
+11,MySQL replication lag explained,1,normal,0.7069,1
+12,Apache Arrow makes columnar data exchange faster,1,normal,0.5007,0
+13,Writing window functions in SQL without losing your mind,1,normal,0.7272,1
+14,Redis adds vector search to its in-memory database,1,normal,0.7014,1
+15,Partitioning strategies for large Parquet datasets,1,normal,0.6232,0
+16,Query planning: how a cost-based optimizer picks a join order,1,normal,0.7513,1
+17,Debugging deadlocks in production Postgres,1,normal,0.7829,1
+18,The rise of embedded analytical databases,1,normal,0.8538,1
+19,dbt tips for cleaner data transformations,1,normal,0.3504,0
+20,Schema migrations without downtime,1,normal,0.7297,0
+21,Local bakery wins national croissant competition,0,normal,0.0409,0
+22,Champions League: Ajax beat Juventus 2-1,0,normal,0.0,0
+23,New study links coffee to better sleep for some adults,0,normal,0.0765,0
+24,Apple unveils thinner iPhone with better camera,0,normal,0.0404,0
+25,Ten tips for growing tomatoes on a balcony,0,normal,0.0679,0
+26,Amsterdam raises tourist tax again,0,normal,0.0,0
+27,Pop star announces extra concert dates in Europe,0,normal,0.036,0
+28,How to train your puppy to sit,0,normal,0.0262,0
+29,Electric car sales hit record high in Norway,0,normal,0.0,0
+30,Scientists discover new species of frog in Peru,0,normal,0.0001,0
+31,The best hiking trails in the Swiss Alps,0,normal,0.0,0
+32,Stock markets fall after interest rate decision,0,normal,0.0262,0
+33,A new React framework promises faster page loads,0,normal,0.1589,0
+34,Learning Rust: ownership and borrowing explained,0,normal,0.1158,0
+35,Kubernetes release adds better autoscaling for pods,0,normal,0.1349,0
+36,Review: the new games console is worth it,0,normal,0.0523,0
+37,Recipe: quick vegetarian lasagna,0,normal,0.088,0
+38,Heatwave expected across southern Spain,0,normal,0.0602,0
+39,Museum reopens after two-year renovation,0,normal,0.013,0
+40,Why sleep matters for students during exams,0,normal,0.0003,0
+41,Police add suspect's fingerprints to national database,0,keyword_trap,0.6064,1
+42,Our family recipe database is just a shoebox of index cards,0,keyword_trap,0.7396,1
+43,Stock index hits all-time high,0,keyword_trap,0.0134,1
+44,Customer query about refund policy goes viral on social media,0,keyword_trap,0.3153,1
+45,The sequel to the hit movie arrives this summer,0,keyword_trap,0.0355,0
+46,Making joins 10x faster with hash partitioning,1,no_keyword,0.8111,0
+47,Columnar storage explained: why reading less is faster,1,no_keyword,0.5237,0
+48,B-trees vs LSM-trees for write-heavy workloads,1,no_keyword,0.6332,0
+49,We replaced our nightly ETL batch with streaming change data capture,1,no_keyword,0.5833,0
+50,How Parquet files store nested records,1,no_keyword,0.7322,0
+51,DuckDB krijgt een nieuwe optimizer voor snellere queries,1,dutch,0.7753,1
+52,Zo bouw je een datawarehouse met Postgres,1,dutch,0.8512,1
+53,Waarom indexen je zoekopdrachten in SQL versnellen,1,dutch,0.6017,1
+54,Ajax wint met 3-0 van PSV,0,dutch,0.0008,0
+55,Gemeente Amsterdam opent nieuw zwembad,0,dutch,0.0002,0
+56,Tips voor een goede nachtrust tijdens de tentamenweek,0,dutch,0.1511,0

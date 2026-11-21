@@ -1,0 +1,13 @@
+id,text,label
+1,Typo on the about page,0
+2,Button color slightly off in dark mode,0
+3,Footer link points to the old blog,0
+4,Search results load in 5 seconds instead of 1,1
+5,Some users in Europe see slow image loading,1
+6,Email notifications are delayed by 20 minutes,1
+7,Checkout is down for all customers,2
+8,API returns 500 errors for every request,2
+9,Login service unavailable worldwide,2
+10,Customer database leaked publicly with passwords exposed,3
+11,Ransomware encrypted all production servers,3
+12,Fire in the data center and all backups are unreachable,3

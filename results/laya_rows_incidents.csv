@@ -1,0 +1,13 @@
+id,text,label_0_to_3,laya_score,laya_confidence
+1,Typo on the about page,0,0.6432,0.3182
+2,Button color slightly off in dark mode,0,0.6599,0.3264
+3,Footer link points to the old blog,0,1.134,0.0943
+4,Search results load in 5 seconds instead of 1,1,1.18,0.0608
+5,Some users in Europe see slow image loading,1,1.1957,0.1342
+6,Email notifications are delayed by 20 minutes,1,1.4731,0.0035
+7,Checkout is down for all customers,2,1.8941,0.4498
+8,API returns 500 errors for every request,2,1.3234,0.0823
+9,Login service unavailable worldwide,2,1.8906,0.134
+10,Customer database leaked publicly with passwords exposed,3,1.6349,0.0276
+11,Ransomware encrypted all production servers,3,2.0718,0.3323
+12,Fire in the data center and all backups are unreachable,3,2.1479,0.4967

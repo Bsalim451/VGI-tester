@@ -1,0 +1,31 @@
+id,text,label,kind,laya_choice,laya_confidence,shuffled_choice,renamed_choice,keyword_choice
+1,My package has not arrived after two weeks,shipping,normal,shipping,0.6481,shipping,shipping,shipping
+2,The tracking number says delivered but nothing is at my door,shipping,normal,shipping,0.7027,shipping,shipping,shipping
+3,Can you ship to Belgium?,shipping,normal,shipping,0.4197,shipping,shipping,shipping
+4,The box arrived crushed and the item inside is broken,shipping,normal,shipping,0.4924,shipping,shipping,shipping
+5,My order is stuck in customs,shipping,normal,shipping,0.6672,shipping,shipping,shipping
+6,Delivery driver left my parcel at the wrong address,shipping,normal,shipping,0.6855,shipping,shipping,shipping
+7,When will my order be sent?,shipping,normal,shipping,0.2953,shipping,shipping,shipping
+8,I need to change my delivery address,shipping,normal,shipping,0.4373,shipping,shipping,shipping
+9,I was charged twice for the same order,billing,normal,billing,0.7275,billing,billing,billing
+10,Please send me an invoice with my company VAT number,billing,normal,billing,0.1657,billing,billing,billing
+11,I want a refund for my cancelled subscription,billing,normal,billing,0.1,billing,billing,billing
+12,My credit card payment keeps failing,billing,normal,billing,0.6108,billing,billing,billing
+13,Why did my monthly price go up?,billing,normal,billing,0.2728,billing,billing,billing
+14,I see a charge I don't recognise on my bank statement,billing,normal,billing,0.5256,billing,billing,billing
+15,Can I pay with iDEAL?,billing,normal,billing,0.2204,billing,billing,billing
+16,The discount code was not applied to my total,billing,normal,billing,0.0192,billing,shipping,billing
+17,How do I reset my password?,support,normal,support,0.1777,support,support,support
+18,Does this blender work with 110V?,support,normal,support,0.2539,support,support,support
+19,How do I connect the app to my smartwatch?,support,normal,support,0.1939,support,support,support
+20,What is the difference between the Pro and Basic model?,support,normal,support,0.0786,support,support,support
+21,The app crashes when I open settings,support,normal,support,0.1193,support,shipping,support
+22,Can I use the product outdoors in the rain?,support,normal,support,0.1092,support,support,support
+23,Where can I find the user manual?,support,normal,support,0.1856,support,support,support
+24,How do I change the language of the interface?,support,normal,support,0.1678,support,support,support
+25,Still waiting... it's been 3 weeks 😡,shipping,implicit,shipping,0.2672,shipping,shipping,support
+26,Courier never showed up,shipping,implicit,shipping,0.5587,shipping,shipping,shipping
+27,Bank says the transaction was declined,billing,implicit,billing,0.5628,billing,billing,billing
+28,Mijn pakket is nog steeds niet bezorgd,shipping,dutch,shipping,0.0364,shipping,shipping,support
+29,Er is twee keer geld afgeschreven voor één bestelling,billing,dutch,billing,0.1767,billing,billing,support
+30,Hoe verander ik mijn wachtwoord?,support,dutch,support,0.1493,support,support,support

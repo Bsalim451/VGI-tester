@@ -1,0 +1,42 @@
+[project]
+name = "vgi-tester"
+dynamic = ["version"]
+description = "A VGI worker for DuckDB that mirrors native functions, so VGI can be tested and compared against native DuckDB"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Salim", email = "bsalim798@gmail.com" }]
+requires-python = ">=3.13"
+dependencies = [
+    "vgi-python>=0.51",
+    "pyarrow>=15.0.0",
+    "numpy>=1.26",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "haybarn>=2.0.0rc11",
+    "duckdb>=2.0",
+    "matplotlib>=3.8",
+]
+
+[project.scripts]
+vgi-tester = "vgi_tester.worker:main"
+vgi-tester-http = "vgi_tester.worker:main_http"
+
+[project.urls]
+Repository = "https://github.com/Bsalim451/VGI-tester"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "vgi_tester/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["vgi_tester"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"

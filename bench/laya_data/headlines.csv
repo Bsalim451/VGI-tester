@@ -1,0 +1,57 @@
+id,text,label,kind
+1,DuckDB 2.0 released with a new query optimizer,1,normal
+2,PostgreSQL 19 adds faster parallel index builds,1,normal
+3,How we cut our Snowflake bill in half by rewriting slow SQL queries,1,normal
+4,A beginner's guide to database indexes,1,normal
+5,SQLite now supports JSONB columns,1,normal
+6,Apache Iceberg vs Delta Lake: choosing a table format for your data lake,1,normal
+7,Why our team moved from MongoDB back to Postgres,1,normal
+8,Understanding ACID transactions in relational databases,1,normal
+9,ClickHouse benchmarks on 10 billion rows of log data,1,normal
+10,Building a real-time data pipeline with Kafka and DuckDB,1,normal
+11,MySQL replication lag explained,1,normal
+12,Apache Arrow makes columnar data exchange faster,1,normal
+13,Writing window functions in SQL without losing your mind,1,normal
+14,Redis adds vector search to its in-memory database,1,normal
+15,Partitioning strategies for large Parquet datasets,1,normal
+16,Query planning: how a cost-based optimizer picks a join order,1,normal
+17,Debugging deadlocks in production Postgres,1,normal
+18,The rise of embedded analytical databases,1,normal
+19,dbt tips for cleaner data transformations,1,normal
+20,Schema migrations without downtime,1,normal
+21,Local bakery wins national croissant competition,0,normal
+22,Champions League: Ajax beat Juventus 2-1,0,normal
+23,New study links coffee to better sleep for some adults,0,normal
+24,Apple unveils thinner iPhone with better camera,0,normal
+25,Ten tips for growing tomatoes on a balcony,0,normal
+26,Amsterdam raises tourist tax again,0,normal
+27,Pop star announces extra concert dates in Europe,0,normal
+28,How to train your puppy to sit,0,normal
+29,Electric car sales hit record high in Norway,0,normal
+30,Scientists discover new species of frog in Peru,0,normal
+31,The best hiking trails in the Swiss Alps,0,normal
+32,Stock markets fall after interest rate decision,0,normal
+33,A new React framework promises faster page loads,0,normal
+34,Learning Rust: ownership and borrowing explained,0,normal
+35,Kubernetes release adds better autoscaling for pods,0,normal
+36,Review: the new games console is worth it,0,normal
+37,Recipe: quick vegetarian lasagna,0,normal
+38,Heatwave expected across southern Spain,0,normal
+39,Museum reopens after two-year renovation,0,normal
+40,Why sleep matters for students during exams,0,normal
+41,Police add suspect's fingerprints to national database,0,keyword_trap
+42,Our family recipe database is just a shoebox of index cards,0,keyword_trap
+43,Stock index hits all-time high,0,keyword_trap
+44,Customer query about refund policy goes viral on social media,0,keyword_trap
+45,The sequel to the hit movie arrives this summer,0,keyword_trap
+46,Making joins 10x faster with hash partitioning,1,no_keyword
+47,Columnar storage explained: why reading less is faster,1,no_keyword
+48,B-trees vs LSM-trees for write-heavy workloads,1,no_keyword
+49,We replaced our nightly ETL batch with streaming change data capture,1,no_keyword
+50,How Parquet files store nested records,1,no_keyword
+51,DuckDB krijgt een nieuwe optimizer voor snellere queries,1,dutch
+52,Zo bouw je een datawarehouse met Postgres,1,dutch
+53,Waarom indexen je zoekopdrachten in SQL versnellen,1,dutch
+54,Ajax wint met 3-0 van PSV,0,dutch
+55,Gemeente Amsterdam opent nieuw zwembad,0,dutch
+56,Tips voor een goede nachtrust tijdens de tentamenweek,0,dutch
