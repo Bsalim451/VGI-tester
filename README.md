@@ -4,7 +4,7 @@ A [VGI](https://query.farm/vgi/) worker for DuckDB, built to test VGI itself:
 how correct, how fast and how robust a VGI worker is compared with native
 DuckDB, and how other VGI workers behave.
 
-Part of my HBO-ICT graduation internship (Hogeschool van Amsterdam) at QXIP.
+Part of my HBO-ICT internship (Hogeschool van Amsterdam) at QXIP.
 
 > **New to VGI?** Read [docs/what-is-vgi.md](docs/what-is-vgi.md) first.
 > **Results:** [docs/test-report.md](docs/test-report.md).
